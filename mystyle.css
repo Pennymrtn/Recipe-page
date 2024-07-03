@@ -1,0 +1,18 @@
+img{
+    width: 300px;
+    border-radius: 5px 5px 5px 5px;
+}
+h1{
+    font-family: Young serif;
+    font-weight: 400;
+}
+p{
+    font-family:Outfit;
+    font-weight: 400;
+    font-size: small;
+}
+h3{
+    font-family: Outfit;
+    color:hsl(332, 51%, 32%)
+}
+
