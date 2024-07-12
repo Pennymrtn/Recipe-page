@@ -5,47 +5,55 @@ body{
     font-size: small;
     color:hsl(30, 10%, 34%);
     margin: 50px;
+    font-size: 16px;
 }
 .grosse-boite{
     background-color:hsl(0, 0%, 100%) ;
-    width: 575px;
-    border-radius: 15px 15px 15px 15px;
+    width: 720px;
+    height: 1525px;
+    border-radius: 25px 25px 25px 25px;
+    margin: auto;
 
     
 }
 img{
-    width: 535px;
-    border-radius: 5px 5px 5px 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 630px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 h1{
     font-family: Young serif;
     font-weight: 400;
-    margin: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
     color: hsl(24, 5%, 18%);
 }
 p{
     font-family:Outfit;
     font-weight: 400;
     font-size: small;
-    margin: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 .jolie-boite{
     background-color: hsl(330, 100%, 98%);
-    width: 535px;
+    width: 630px;
     height: 140px;
     padding-top: 0.005%;
     border-radius: 5px 5px 5px 5px;
-    margin: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 h3{
     color:hsl(332, 51%, 32%);
     margin: 20px;
     height: 10px;
     border: 5px;  
-    margin: 20px; 
+    margin-left: 45px;
+    margin-right: 45px; 
+    font-weight: 600;
 }
 ul{ list-style: none;}
 li:before{
@@ -58,41 +66,57 @@ li:before{
 li.prep-list:before{
     content: "•";
     color:hsl(332, 51%, 32%);
+    font-size: 16px;
 
 }
 li.ing-list:before{
     content: "\25AA";
     color: hsl(14, 45%, 36%);
+    margin-left: 15px;
+    font-size: 16px;
 }
 h2{
     font-family: Young Serif;
     color: hsl(14, 45%, 36%);
-    margin: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-weight: 400;
 }
 ol{
     list-style:none;
     counter-reset: li;
-    margin: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 ol li::before{
     font-weight: 600;
+    font-size: 16px;
     display: inline-block;
     margin-left: -2.5em;
     margin-right: 0.5em;
     content: counter(li)". ";
     color:hsl(14, 45%, 36%);
+    display:block;
+    margin-bottom: -25px;
+    line-height: 2rem;
+    font-size: 16px;
 }
 li {counter-increment : li}
 table{
     border-collapse: collapse;
     width: 100%;
-    margin: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 50px;
     
 }
 tr{
     border-bottom: 1px
      solid hsl(30, 18%, 87%);
-     
+       
+}
+tr.last-child{
+    border-bottom: 0;
 }
 th{
     font-weight: 500;
@@ -104,4 +128,12 @@ td{
     font-weight: 600;
     color: hsl(14, 45%, 36%);
     padding:10px
+}
+.last-td{
+    border-bottom:none
+}
+hr{
+    border: 0.5pt solid hsl(30, 18%, 87%);
+    margin-left: 20px;
+    margin-right: 20px;
 }
